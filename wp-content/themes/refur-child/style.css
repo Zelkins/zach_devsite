@@ -1,0 +1,123 @@
+/*
+    Theme Name: Refur Child
+    Description: Theme derivative of Refur theme, customized and edited for personal use.
+    Author: Zach T Elkins
+    Author URI: http://www.zachtelkins.com
+    Template: Refur
+    Version: 0.0.1
+    Tags: light, responsive, freelancer
+*/
+
+body {
+    line-height: 27px;    
+}
+
+a,
+a:visited {
+    color: #18CDB7;    
+}
+
+
+.read-more {
+    color: #92558F;
+    border-bottom: 2px solid #92558F;
+}
+
+.page-header-wrap.mobile-static {
+    background-image: none;
+background: -webkit-linear-gradient(bottom left, rgba(24,205,183,0.93) 0%, rgba(24,205,183,0.93) 14%, rgba(146,85,143,0.95) 67%);
+    background: -o-linear-gradient(bottom left, rgba(24,205,183,0.93) 0%, rgba(24,205,183,0.93) 14%, rgba(146,85,143,0.95) 67%);
+    background: linear-gradient(to top right, rgba(24,205,183,0.93) 0%, rgba(24,205,183,0.93) 14%, rgba(146,85,143,0.95) 67%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed18cdb7', endColorstr='#f292558f',GradientType=1 );    
+}
+
+
+.header-showcase {
+    min-height: 450px !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(bottom left, rgba(24,205,183,0.93) 0%, rgba(24,205,183,0.93) 14%, rgba(146,85,143,0.95) 67%);
+    background: -o-linear-gradient(bottom left, rgba(24,205,183,0.93) 0%, rgba(24,205,183,0.93) 14%, rgba(146,85,143,0.95) 67%);
+    background: linear-gradient(to top right, rgba(24,205,183,0.93) 0%, rgba(24,205,183,0.93) 14%, rgba(146,85,143,0.95) 67%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed18cdb7', endColorstr='#f292558f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.header-showcase:after,
+.featured-content-box {
+	background-color: #ffffff !important;
+}
+
+.featured-box-icon {
+	color: #7e7e7e;
+}
+
+.header-showcase img {
+	display: none;
+}
+
+.header-showcase_content.show-in {
+	padding-bottom: 40px;
+}
+
+.featured-box-title:after {
+	background: rgba(146,85,143,1);
+}
+.site-footer a,
+.site-footer a:visited {
+    color: #ffffff;    
+}
+
+
+
+/* Home Page Edits */
+
+.page-id-19 .page-title {
+    border-bottom: 5px solid rgba(24, 205, 183, 0.53);    
+}
+
+.developer-statement {
+    padding: 50px 15px;    
+}
+.developer-statement h2 {
+    
+}
+.developer-statement span {
+    border-left: 20px solid rgba(146, 85, 143, .89);
+    display: block;
+    padding-left: 20px;
+}
+.developer-statement.container a .gold-block h3 {
+    position: relative;
+    top: 125px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.static-header.showcase-active .site-header {
+    position: absolute;    
+}
+
+.gold-block {
+    min-width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    width: 33%;
+    background: -moz-linear-gradient(-45deg, rgba(24,205,183,0.60) 0%, rgba(24,205,183,0.60) 14%, rgba(255,208,25,0.91) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(24,205,183,0.60) 0%,rgba(24,205,183,0.60) 14%,rgba(255,208,25,0.91) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(24,205,183,0.60) 0%,rgba(24,205,183,0.60) 14%,rgba(255,208,25,0.91) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed18cdb7', endColorstr='#e8ffd019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.gold-block a {
+    text-decoration: none;    
+}
+.gold-block a h3 {
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 949px) {
+    #masthead {
+        
+        
+    }
+}
